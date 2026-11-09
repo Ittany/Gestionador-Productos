@@ -19,6 +19,8 @@ Este proyecto consiste en un backend desarrollado con Node.js y Express que impl
 | **DELETE** | `/api/productos/:id` | Elimina un producto por ID | 200 (OK), 404 (Not Found) |
 
 ## 📸 Evidencias del Ejercicio
+**PROYECTO VISUAIZACIÓN**
+![Visual](capturas/captura07.png)
 
 ### 1. Estructura del proyecto, código y configuración
 ![Estructura y Código](capturas/captura01.png)
