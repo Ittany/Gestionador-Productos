@@ -1,0 +1,139 @@
+{
+    "info": {
+        "_postman_id": "aa4aa02b-bcd5-46c5-a6b4-8575d5b92442",
+        "name": "LAB 10 API",
+        "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+        "description": ""
+    },
+    "item": [
+        {
+            "name": "PUT",
+            "request": {
+                "method": "PUT",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos/1",
+                    "path": [
+                        "api",
+                        "productos",
+                        "1"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\r\n  \"nombre\": \"Mouse Mecánico\",\r\n  \"descripcion\": \"RGB\",\r\n  \"precio\": 50,\r\n  \"stock\": 15\r\n}"
+                }
+            }
+        },
+        {
+            "name": "GET",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos",
+                    "path": [
+                        "api",
+                        "productos"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "POST",
+            "request": {
+                "method": "POST",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos",
+                    "path": [
+                        "api",
+                        "productos"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                },
+                "body": {
+                    "mode": "raw",
+                    "options": {
+                        "raw": {
+                            "language": "json"
+                        }
+                    },
+                    "raw": "{\r\n  \"nombre\": \"Laptop\",\r\n  \"descripcion\": \"Laptop HP\",\r\n  \"precio\": 4300,\r\n  \"stock\": 5\r\n}"
+                }
+            }
+        },
+        {
+            "name": "DELETE",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos/1",
+                    "path": [
+                        "api",
+                        "productos",
+                        "1"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "DELETE NO EXISTE",
+            "request": {
+                "method": "DELETE",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos/9999",
+                    "path": [
+                        "api",
+                        "productos",
+                        "9999"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        },
+        {
+            "name": "GET CON STOP XAMPP",
+            "request": {
+                "method": "GET",
+                "url": {
+                    "raw": "http://localhost:3000/api/productos",
+                    "path": [
+                        "api",
+                        "productos"
+                    ],
+                    "protocol": "http",
+                    "host": [
+                        "localhost"
+                    ],
+                    "port": "3000"
+                }
+            }
+        }
+    ]
+}
