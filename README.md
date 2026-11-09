@@ -31,8 +31,8 @@ Este proyecto consiste en un backend desarrollado con Node.js y Express que impl
 ![Prueba POST 201](capturas/captura04.png)
 
 **Manejo de Errores (404 / 500)**
-![Error 404 Not Found](capturas/captura05.png)
-![Error 500 Internal Server Error](capturas/captura06.png)
+![Error 404 Not Found](capturas/captura06.png)
+![Error 500 Internal Server Error](capturas/captura05.png)
 
 ## 🧪 Colección de Pruebas (Postman / Thunder Client)
 Puedes descargar e importar la colección de pruebas para verificar los endpoints:
